@@ -1,2 +1,6 @@
 // Practice
-console.log("Hi");
+function hi() {
+    console.log('Hi');
+}
+
+hi();
