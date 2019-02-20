@@ -4,4 +4,3 @@ function hi() {
 }
 
 hi();
-// hi
