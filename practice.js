@@ -37,4 +37,4 @@ const playerStats = {
     luck : 1
 }
 
-console.log(playerStats.hp);
+console.log(playerStats);
