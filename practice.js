@@ -28,3 +28,13 @@ class Player {
     }
 
 }
+
+const playerStats = {
+    hp : 100,
+    str : 10,
+    dex : 8,
+    int : 5,
+    luck : 1
+}
+
+console.log(playerStats.hp);
