@@ -1,18 +1,13 @@
-function Blah(name, hp = 100, stats, money = 1000) {
+function Character(name, hp, swagLevel) {
     this._name = name;
     this._hp = hp;
-    this._stats = stats;
-    this._money = money;
-	
-    function getName() {
-        return name;
-    }
-	
-    return {
-        name: getName()
-    };
-
+    this._swagLevel = swagLevel;
 }
 
-const james = new Blah('lol');
-console.log(james);
+function setName(obj, name) {
+    obj._name = name;
+}
+
+const James = new Character('James', 100, 'Over 9000');
+setName(James, 'Joe');
+console.log(James);
